@@ -1,0 +1,24 @@
+.button-default{
+    margin-top: 20px;
+
+    width: 90%;
+    height: 43px;
+
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11);
+    border-radius: 6px;
+
+    color:var(--white);
+    font-weight: bold;
+    letter-spacing: 0.8px;
+
+    transition: all 0.3s ease;
+}
+
+.button-default:hover{
+    cursor: pointer;
+
+    background-color:var(--primaryDark);    
+}
+

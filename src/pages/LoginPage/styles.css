@@ -1,0 +1,41 @@
+#app{
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-linx{
+  width:200px;
+}
+  
+h1 {
+  font-weight: lighter;
+  font-family: Dosis;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+  
+.rodape {
+  align-self: flex-start;
+
+  color: var(--white);
+  font-size: 14px;
+}
+  
+.container {
+  margin-top: 65px;
+  width: 98%;
+}
+
+@media (max-height: 640px){
+  .logo-linx{
+    width: 130px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}

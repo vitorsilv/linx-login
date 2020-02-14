@@ -1,0 +1,12 @@
+.input-default{
+    width: 90%;
+    height: 45px;
+  
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--grayMedium);
+    padding: 15px;
+    margin-bottom: 15px;
+
+    border-radius: 6px;
+}
