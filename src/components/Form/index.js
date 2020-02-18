@@ -10,7 +10,7 @@ function Form(){
         <form action="submit" className="form-default">
             <img src={Simbolo} alt="Simbolo Linx" className="simbolo-form"/>
             <Input placeHolder="Usuário"/>
-            <Input placeHolder="Senha"/>
+            <Input placeHolder="Senha" type="password"/>
             <div className="container-options">
                 <a href="#" className="link">Esqueceu sua senha?</a>
                 <div className="container-remember">
@@ -18,8 +18,6 @@ function Form(){
                     <label className="link">Mantenha-me conectado</label>
                 </div>
             </div>
-            
-
             <Button buttonText="Entrar"/>
         </form> 
     );

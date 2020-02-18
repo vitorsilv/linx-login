@@ -9,4 +9,10 @@
     margin-bottom: 15px;
 
     border-radius: 6px;
+
+    transition: all 0.5 ease;
+}
+
+.input-default:focus{
+    border: 1px solid var(--primary);
 }
