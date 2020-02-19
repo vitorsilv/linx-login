@@ -1,5 +1,6 @@
 # Linx Login
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 A ideia dessa POC é reformular o Login atual, deixando mais genérico entre todas as aplicações WEB da Linx. 
 
