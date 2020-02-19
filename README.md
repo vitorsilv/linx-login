@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Linx Login
 
-## Available Scripts
 
-In the project directory, you can run:
+A ideia dessa POC é reformular o Login atual, deixando mais genérico entre todas as aplicações WEB da Linx. 
 
-### `yarn start`
+### Prototipação 
+O protótipo foi criado olhando para telas de login famosas no mercado, visando uma melhor usabilidade para os cliente, diversos estudos guiam o desenvolvimento dessa tela, desde posicionamento de elementos até tendencias em design.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para visualizar o protótipo no Figma [clique aqui](https://www.figma.com/proto/wucIdIeehwdq98i3WRbpxw/Linx-Login_Web?node-id=78:10&scaling=contain).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Escolha de Tecnologia
+Optei por [ReactJS ⚛️](https://pt-br.reactjs.org/) por ser uma tecnologia em constante crescimento, pela facilidade de aprendizado e a opção re componentizar os elementos de front-end, facilitando a reutilização de código o que otimiza muito o desenvolvimento. 
 
-### `yarn test`
+### Executando a POC
+Antes de qualquer coisa precisamos do ReactJS instalado, caso não tenha o Node.js nem o npm basta clicar [aqui](https://nodejs.org/en/) para baixar e instalar ambos, caso tenha ignore esse passo.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para verificar se o Node.js foi instalado corretamente execute o comando
 
-### `yarn build`
+    node --version
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+caso apareça algo similar a **v10.17.0** a instalação foi concluída com sucesso.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Agora vamos instalar o ReactJS com o comando `npm install -g create-react-app`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Logo após a instalação ser concluída abra o terminal na pasta do projeto e execute o `npm i` comando para baixar e instalar as dependências.
 
-### `yarn eject`
+Agora sim podemos executar o projeto com o comando `npm start`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Sinta-se a vontade para dar um fork no projeto e alterar como quiser, pode sugerir mudanças via **pull requests** também!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+*qualquer duvida procure por vitor.silva@linx.com.br*
