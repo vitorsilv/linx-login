@@ -12,7 +12,7 @@ function Form(){
             <Input placeHolder="Usuário"/>
             <Input placeHolder="Senha" type="password"/>
             <div className="container-options">
-                <a href="#" className="link">Esqueceu sua senha?</a>
+                <a href="http://www.google.com" className="link">Esqueceu sua senha?</a>
                 <div className="container-remember">
                     <input type="checkbox" className="chkRemember" name="rememberme" id="rememberme"/>
                     <label className="link">Mantenha-me conectado</label>
